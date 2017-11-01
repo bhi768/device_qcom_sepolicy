@@ -15,4 +15,4 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/qcom/sepolicy/private
 
--include device/gzosp/sepolicy/qcom/sepolicy.mk
+-include device/candy/sepolicy/qcom/sepolicy.mk
