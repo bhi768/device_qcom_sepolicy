@@ -12,3 +12,4 @@ wakelock_use(vold)
 allow vold swap_block_device:blk_file r_file_perms;
 
 allow vold persist_file:dir r_dir_perms;
+allow vold mnt_vendor_file:dir r_dir_perms;
