@@ -719,7 +719,6 @@
 
 # libnpu
 /(vendor|system/vendor)/lib(64)?/libnpu\.so                u:object_r:same_process_hal_file:s0
-
 ###################################
 # firmware images
 #

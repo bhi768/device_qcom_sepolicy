@@ -146,8 +146,6 @@
 
 ##################################
 # same process HAL libs
-/vendor/lib(64)?/hw/gralloc\.talos\.so   u:object_r:same_process_hal_file:s0
-/vendor/lib(64)?/hw/vulkan\.talos\.so    u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/gralloc\.sm6150\.so   u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/vulkan\.sm6150\.so    u:object_r:same_process_hal_file:s0
 
