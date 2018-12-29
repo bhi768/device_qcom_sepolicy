@@ -42,8 +42,6 @@ allow qdma_app { radio_service registry_service }:service_manager find;
 allow qdma_app { power_service }:service_manager find;
 # allow to load native library
 allow qdma_app { mount_service }:service_manager find;
-# for vendor_perf_service
-allow qdma_app app_api_service:service_manager find;
 
 # allow access to qdma dropbox
 allow qdma_app vendor_qdma_data_file:dir create_dir_perms;
@@ -70,4 +68,4 @@ allow qdma_app system_app_data_file:dir create_dir_perms;
 allow qdma_app system_app_data_file:file create_file_perms;
 
 # allow qdma_prop
-set_prop(qdma_app, vendor_qdma_prop)
+set_prop(qdma_app, vendor_qdma_prop);
