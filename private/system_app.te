@@ -35,6 +35,11 @@ allow system_app dpmwrapper_socket:sock_file w_file_perms;
 allow system_app dpmd:unix_stream_socket connectto;
 allow system_app color_service:service_manager add;
 get_prop(system_app, bluetooth_prop);
+
+# Allow GestureAnywhere
+allow system_app system_data_file:dir rw_file_perms;
+allow system_app system_data_file:file rw_file_perms;
+
 # allow system_app access to Workload Classifier Property
 get_prop(system_app, vendor_wlc_prop);
 set_prop(system_app, vendor_wlc_prop);
